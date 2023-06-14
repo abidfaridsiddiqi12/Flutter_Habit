@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -27,7 +28,7 @@ class _ProfilePageState extends State<ProfilePage> {
             padding: EdgeInsets.only(top: 25, bottom: 10),
             child: const Center(
                 child: Text(
-              "Hey Hermano!",
+              "farid!",
               style: TextStyle(
                   color: Colors.black,
                   fontSize: 22,
